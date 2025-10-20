@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const password = document.getElementById('password').value.trim();
 
         try {
-            const response = await fetch('../data/users.json');
+            const response = await fetch('users.json');
 
             const data = await response.json();
             console.log(data);
@@ -208,3 +208,4 @@ document.addEventListener('DOMContentLoaded', function () {
 //     }
 
 // }); 
+
